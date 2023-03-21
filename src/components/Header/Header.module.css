@@ -1,9 +1,9 @@
 .header {
   display: flex;
   height: 5vh;
-  padding: 40px 0px;
+  padding: 2% 8%;
 }
-a {
+.header a {
   margin-left: 40px;
   margin-right: 40px;
   font-family: "Poppins";
@@ -13,13 +13,13 @@ a {
   line-height: 24px;
   color: #637381;
 }
-.header_left {
-  margin-right: 30%;
+.header_right {
+  margin-right: 36%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-button {
+.header button {
   align-items: center;
   padding: 6px 16px;
   width: 83px;
@@ -34,12 +34,12 @@ button {
   background-color: black;
 }
 
-.header_right {
+.header_left {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header_right img {
+.header_left img {
   margin-right: 40px;
 }
 .vl {

@@ -1,18 +1,18 @@
 import styles from "./Footer2.module.css";
 import logo from "../../assets/Header_img/Logo.svg";
-import face from "../../assets/Footer_img/Facebook.svg";
-import insta from "../../assets/Footer_img/instagram.svg";
-import inIcon from "../../assets/Footer_img/in.svg";
-import twitter from "../../assets/Footer_img/twitter.svg";
-import email from "../../assets/Footer_img/email.svg";
-import location from "../../assets/Footer_img/location_icon.svg";
-import btnImg from "../../assets/Footer_img/vector_white.svg";
+import face from "../../assets/Footer/Facebook.svg";
+import insta from "../../assets/Footer/instagram.svg";
+import inIcon from "../../assets/Footer/in.svg";
+import twitter from "../../assets/Footer/twitter.svg";
+import email from "../../assets/Footer/email.svg";
+import location from "../../assets/Footer/location_icon.svg";
+import btnImg from "../../assets/Footer/vector_white.svg";
 
-function Footer() {
+function Footer2() {
   return (
     <>
       <div className={styles.footer}>
-        <div className={styles.footer_left}>
+        <div className={styles.footer_right}>
           <img src={logo} alt="logo" className={styles.logo} />
           <p className={styles.text}>
             The starting point for your next project based on easy-to-customize
@@ -35,7 +35,7 @@ function Footer() {
             <p className={styles.middleText}>655 Schaefer Dale</p>
           </div>
         </div>
-        <div className={styles.footer_right}>
+        <div className={styles.footer_left}>
           <input
             type="text"
             placeholder="Email address"
@@ -48,7 +48,7 @@ function Footer() {
       </div>
       <div className={styles.footer_bottom}>
         <p>©2021. All rights reserved</p>
-        <div className={styles.bottom_right}>
+        <div className={styles.bottom_left}>
           <a className={styles.textA}>Help Center</a>
           <a className={styles.textA}>Terms of Service</a>
         </div>
@@ -57,4 +57,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Footer2;
