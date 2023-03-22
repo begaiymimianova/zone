@@ -1,7 +1,7 @@
 .header {
   display: flex;
   height: 5vh;
-  padding: 40px 0px;
+  padding: 4% 9%;
 }
 a {
   margin-left: 40px;
@@ -17,7 +17,7 @@ a {
 a:hover {
   color: white;
 }
-.header_left {
+.header_right {
   margin-right: 30%;
   display: flex;
   justify-content: space-around;
@@ -40,7 +40,7 @@ button {
   cursor: pointer;
 }
 
-.header_right {
+.header_left {
   display: flex;
   justify-content: space-between;
   align-items: center;
