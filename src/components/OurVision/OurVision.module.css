@@ -1,0 +1,23 @@
+.wrapper {
+    height: 648px;
+    background-image: url(../../accsets/image/AbotImg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.txt {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;    
+    color: #7a7a7a;    
+    width: 564px;
+}

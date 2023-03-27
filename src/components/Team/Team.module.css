@@ -1,0 +1,107 @@
+.wrapper {
+    height: 1376px;
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;    
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;    
+    width: 480px;
+    height: 144px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    width: 1152px;
+    height: 912px;
+}
+
+.bottom__top, .bottom__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;    
+    width: 1152px;
+    height: 436px;
+}
+
+.teamCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 436px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 0px;
+    gap: 4px;
+    width: 270px;
+    height: 76px;
+}
+
+.title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;    
+    color: #212B36;
+}
+
+.txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;    
+    color: #919EAB;
+}
+
+.imgBoy {
+    border-radius: 16px;
+}
+
+.img_wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.social {
+    position: absolute;
+    top: 100.5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 14.5%;
+}
+
+.social > img {
+    width: 20px;
+}
+
+.img_wrapper:hover .social {
+    top: 85.5%;
+}
+
