@@ -9,3 +9,16 @@
 .container {
   padding: 0 144px;
 }
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #FA541C;
+}
+
+.slick-next:before, .slick-prev:before {
+  content: '';
+}
+
+.slick-dots li button:before {
+  font-size: 18px;
+}

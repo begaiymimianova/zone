@@ -2,10 +2,7 @@ import React from 'react'
 import Title from '../Title/Title'
 import Txt from '../Txt/Txt'
 import css from './OurStory.module.css'
-import dot from '../../accsets/icon/dot.png'
-import dotBlue from '../../accsets/icon/dotBlue.png'
-import dotYellow from '../../accsets/icon/dotYellow.png'
-import dotGreen from '../../accsets/icon/dotGreen.png'
+
 
 
 function OurStory() {

@@ -2,16 +2,17 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import profile from "../../accsets/image/profile.png"
 import css from './SliderTest.module.css'
-
+import icon from '../../accsets/icon/slidericon.png'
+import right from '../../accsets/icon/slideright.png'
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red" }}
+      style={{ ...style, display: "block", background: "none" }}
       onClick={onClick}
-    />
+    > <img src={icon} alt="" /> </div>
   );
 }
 
@@ -20,9 +21,9 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      style={{ ...style, display: "block", background: "none" }}
       onClick={onClick}
-    ></div>
+    > <img src={right} alt="" /></div>
   );
 }
 
@@ -37,7 +38,7 @@ export default class SliderTest extends Component {
       prevArrow: <SamplePrevArrow />
     };
     return (
-        <div className="container">
+        <div className={css.wrapper + " container"}>
       <div>
         <h2 className={css.slideText}>
             <p>Testimonials</p>
@@ -55,19 +56,54 @@ export default class SliderTest extends Component {
             </h3>
           </div>
           <div>
-            <h3>2</h3>
+            <h3>
+            <p className={css.txt1}>Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.</p>
+                <div className={css.profile}>
+                    <img src={profile} alt="" />
+                    <h4 className={css.title}>Robert Fox</h4>
+                    <p className={css.txt2}>Designer</p>
+                </div>
+            </h3>
           </div>
           <div>
-            <h3>3</h3>
+            <h3>
+            <p className={css.txt1}>Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.</p>
+                <div className={css.profile}>
+                    <img src={profile} alt="" />
+                    <h4 className={css.title}>Robert Fox</h4>
+                    <p className={css.txt2}>Designer</p>
+                </div>
+            </h3>
           </div>
           <div>
-            <h3>4</h3>
+            <h3>
+            <p className={css.txt1}>Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.</p>
+                <div className={css.profile}>
+                    <img src={profile} alt="" />
+                    <h4 className={css.title}>Robert Fox</h4>
+                    <p className={css.txt2}>Designer</p>
+                </div>
+            </h3>
           </div>
           <div>
-            <h3>5</h3>
+            <h3>
+            <p className={css.txt1}>Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.</p>
+                <div className={css.profile}>
+                    <img src={profile} alt="" />
+                    <h4 className={css.title}>Robert Fox</h4>
+                    <p className={css.txt2}>Designer</p>
+                </div>
+            </h3>
           </div>
           <div>
-            <h3>6</h3>
+            <h3>
+            <p className={css.txt1}>Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.</p>
+                <div className={css.profile}>
+                    <img src={profile} alt="" />
+                    <h4 className={css.title}>Robert Fox</h4>
+                    <p className={css.txt2}>Designer</p>
+                </div>
+            </h3>
           </div>
         </Slider>
       </div>
