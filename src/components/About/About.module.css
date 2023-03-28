@@ -1,0 +1,124 @@
+.wrapper {
+    height: 100%;
+    padding-top: 80px;
+}
+
+.top {
+    height: 50%;
+}
+
+.img {
+    border-radius: 8px;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    height: 50px;
+    margin-top: 80px;
+    height: 376px;
+}
+
+.bottom > .right {
+    width: 466px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin-right: 122px;
+    gap: 24px;
+}
+
+.bottom > .left {
+    width: 466px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.bottom__txt {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: right;
+    color: #637381;
+    margin-bottom: 51px;
+}
+
+.bottom__txt2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;    
+    text-transform: uppercase;
+    color: #919EAB;
+}
+
+.bottom__txt3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;    
+    color: #FA541C;
+}
+
+.card {
+    width: 564px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+}
+
+.cards__num {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.cards__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;    
+    color: #212B36;
+}
+
+.cards__txt {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;    
+    text-transform: uppercase;    
+    color: #919EAB;
+    width: 100px;
+}
+
+.plus {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;    
+    color: #FA541C;
+}
+
+.cards2__txt {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;    
+    color: #637381;
+    margin-left: 40px;
+}
+
+.cards2 {
+    border-left: 1px solid rgba(145, 158, 171, 0.24);
+    height: 92px;
+    margin-left: 41px;
+}
