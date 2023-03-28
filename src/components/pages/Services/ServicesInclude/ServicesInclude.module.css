@@ -1,0 +1,39 @@
+.servicesInclude {
+  height: 100%;
+  padding: 4% 9%;
+}
+.top_content {
+  display: inline-block;
+  justify-content: center;
+}
+.servicesInclude h1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #212b36;
+  text-align: center;
+}
+.top_content p {
+  width: 480px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #637381;
+  align-items: center;
+}
+.tbl {
+  display: block;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.box {
+  width: 330px;
+  display: inline-block;
+  margin-right: 140px;
+  text-align: center;
+}

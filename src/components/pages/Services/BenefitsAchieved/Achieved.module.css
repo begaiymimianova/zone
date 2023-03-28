@@ -1,0 +1,121 @@
+.achieved {
+  padding: 4% 9%;
+  background-color: #f9fafb;
+}
+.bottom_content {
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  justify-content: space-around;
+}
+.achieved h1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #212b36;
+  /* margin-left: 6%; */
+  text-align: center;
+}
+.achieved p {
+  width: 480px;
+  height: 56px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #637381;
+  margin-left: 35%;
+}
+.middle {
+  margin: 10% -10%;
+}
+.middle2 {
+  margin-bottom: 40px;
+}
+.top2 {
+  margin-bottom: 8%;
+  margin-top: -4px;
+}
+.top,
+.middle,
+.bottom,
+.middle2,
+.top2 {
+  display: flex;
+}
+.right_content h1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+  color: #212b36;
+}
+.right_content p {
+  width: 301px;
+  height: 52px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: right;
+  color: #637381;
+  margin-left: 0%;
+}
+.left_content h1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  color: #212b36;
+}
+.left_content p {
+  width: 301px;
+  height: 52px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: left;
+  color: #637381;
+  margin-left: 0%;
+}
+.ul {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(135deg, #fdab76 0%, #fa541c 100%);
+  border-radius: 50%;
+  margin: 22px;
+}
+.ul2 {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(135deg, #69f290 0%, #0cd66e 100%);
+  border-radius: 50%;
+  margin: 22px;
+}
+.ul3 {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(135deg, #77f0ed 0%, #22b8cf 100%);
+  border-radius: 50%;
+  margin: 22px;
+}
+.ul4 {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(135deg, #69f290 0%, #0cd66e 100%);
+  border-radius: 50%;
+  margin: 50px 26px;
+  margin-top: 20px;
+  margin-left: 64px;
+  margin-right: 22px;
+}

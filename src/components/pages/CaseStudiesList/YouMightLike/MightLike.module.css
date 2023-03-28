@@ -1,0 +1,59 @@
+.mightLike {
+  padding: 4% 8%;
+}
+.contentTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contentTop h1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #212b36;
+}
+.contentTop p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  color: #fa541c;
+}
+.contentTop p > img {
+  margin-left: 10px;
+}
+
+.contentBottom {
+  display: flex;
+  justify-content: space-between;
+}
+.contentBottom h3 {
+  width: 322px;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #212b36;
+  text-align: start;
+  margin: 10px;
+}
+.contentBottom p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #919eab;
+  text-align: start;
+  margin: 10px;
+}
+.box img {
+  width: 500px;
+  height: 450px;
+}
