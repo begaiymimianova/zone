@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0px;
+    gap: 80px;
+    height: 512px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;    
+    width: 616px;
+    height: 128px;
+}
+
+.item_top, .item_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    width: 616px;
+    height: 32px;
+}
