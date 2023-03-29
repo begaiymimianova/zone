@@ -16,7 +16,6 @@
   line-height: 80px;
   color: #fa541c;
   text-align: start;
-  
 }
 .footer p {
   font-family: "Poppins", sans-serif;
@@ -90,7 +89,7 @@
 }
 .left input {
   width: 364px;
-  height: 56px;
+  padding: 8px;
   background: rgba(145, 158, 171, 0.08);
   border-radius: 8px 0px 0px 8px;
   border: none;
@@ -106,4 +105,5 @@
   background: #fa541c;
   border-radius: 0px 8px 8px 0px;
   border: none;
+  color:#ffffff;
 }

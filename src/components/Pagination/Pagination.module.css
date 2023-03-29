@@ -1,0 +1,9 @@
+.middle img {
+  width: 500px;
+  height: 450px;
+}
+.middle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
