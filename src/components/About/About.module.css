@@ -122,3 +122,36 @@
     height: 92px;
     margin-left: 41px;
 }
+
+@media  (max-width: 576px) {
+    .img {
+        width: 335px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom > .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        width: 335px;
+    }
+
+    .bottom__txt {
+        text-align: center;
+        width: 335px;
+    }
+
+    .bottom > .left {
+        padding-top: 40px;
+    }
+
+    .cards2__txt {
+        width: 170px;
+    }
+}

@@ -14,7 +14,7 @@ function Contact() {
         <div className='container'>
             <div className={css.wrapper}>
                 <div className={css.information}>
-                    <img src={contact} alt="contact" />
+                    <img className={css.img__infa} src={contact} alt="contact" />
                     <div className={css.visit}>
                         <img src={location} alt="" />
                         <div className={css.information__text}>
@@ -78,11 +78,11 @@ function Contact() {
                         <div className={css.budget}>
                             <p className={css.budget__title}>Your Budget</p>
                             <div className={css.slider}>
-                                <img src={line} alt="" />
+                                <input className={css.range} type="range" />
                             </div>
                         </div>
                         <div className={css.textArea}>
-                            <textarea placeholder='Message'></textarea>
+                            <textarea className={css.message} placeholder='Message'></textarea>
                         </div>
                     </div>
                     <button className={css.contact__btn}>Send Request</button>

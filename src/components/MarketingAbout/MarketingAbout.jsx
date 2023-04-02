@@ -14,7 +14,7 @@ function MarketingAbout() {
         <div className='container'>
             <div className={css.wrapper}>
                 <div className={css.top}>
-                    <img src={team} alt="" />
+                    <img className={css.img_top} src={team} alt="" />
                     <div className={css.top_text}>
                         <Title title="Who We Are?" />
                         <p className={css.top__txt}>Vivamus consectetuer hendrerit lacus. Curabitur a felis in nunc fringilla tristique. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit.
@@ -26,23 +26,23 @@ function MarketingAbout() {
                 </div>
                 <div className={css.bottom}>
                     <div className={css.card1}>
-                        <img src={progress} alt="" />
-                        <Title title="12" />
+                        <img className={css.iocn} src={progress} alt="" />
+                        <h2 className={css.bottom__title}>12</h2>
                         <Txt txt="Years of experience" />
                     </div>
                     <div className={css.card2}>
-                        <img src={champion} alt="" />
-                        <Title title="20" />
+                        <img className={css.iocn} src={champion} alt="" />
+                        <h2 className={css.bottom__title}>20</h2>
                         <Txt txt="Awards" />
                     </div>
                     <div className={css.card3}>
-                        <img src={project} alt="" />
-                        <Title title="150" />
+                        <img className={css.iocn} src={project} alt="" />
+                        <h2 className={css.bottom__title}>150</h2>
                         <Txt txt="Projects" />
                     </div>
                     <div className={css.card4}>
-                        <img src={person} alt="" />
-                        <Title title="32k" />
+                        <img className={css.iocn} src={person} alt="" />
+                        <h2 className={css.bottom__title}>32k</h2>
                         <Txt txt="Happy clients" />
                     </div>
                 </div>

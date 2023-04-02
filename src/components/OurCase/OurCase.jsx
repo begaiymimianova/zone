@@ -1,7 +1,5 @@
 import styles from "./OurCase.module.css";
-import Pagination from "../Pagination/Pagination";
 import React, { useState} from "react";
-import ReactPaginate from "react-paginate";
 
 function OurCase() {
   // const [newsList, setNewList] = useState([]);
@@ -41,25 +39,6 @@ function OurCase() {
           {/* {currentItems.map(() => (
             <Pagination />
           ))} */}
-          <ReactPaginate
-            breakLabel="..."
-            nextLabel="next >"
-            onPageChange={handlePageClick}
-            pageRangeDisplayed={5}
-            pageCount={pageCount}
-            previousLabel="<div previous"
-            renderOnZeroPageCount={null}
-            containerClassName="pagination"
-            activeClassName="active"
-            pageClassName="page-item"
-            pageLinkClassName="page-link"
-            previousClassName="page-item"
-            previousLinkClassName="page-link"
-            nextClassName="page-item"
-            nextLinkClassName="page-link"
-            breakClassName="page-item"
-            breakLinkClassName="page-link"
-          />
         </div>
       ) : (
         <div>

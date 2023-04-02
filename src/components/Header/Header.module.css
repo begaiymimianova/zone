@@ -1,7 +1,6 @@
 .header {
   display: flex;
   height: 5vh;
-  padding: 2% 8%;
 }
 .header a {
   margin-left: 40px;

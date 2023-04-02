@@ -6,14 +6,14 @@ import vector_down from "../../assets/Header_img/Vector_down.svg";
 
 function Header() {
   return (
+    <div className="container">
     <div className={styles.header}>
       <div className={styles.header_right}>
         <img className={styles.logo} src={logo} alt="logo" />
         <a>Home</a>
         <a>Components</a>
-        <a>
+        <a className={styles.a_hover}>
           Pages
-          <img src={vector_down} alt="vector_down" />
         </a>
         <a>Documentation</a>
       </div>
@@ -24,6 +24,7 @@ function Header() {
         <a>Login</a>
         <button>Join Us</button>
       </div>
+    </div>
     </div>
   );
 }

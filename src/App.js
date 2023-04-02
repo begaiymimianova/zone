@@ -6,28 +6,25 @@ import HomePage from './Pages/HomePage/HomePage';
 import "./App.css";
 import OfflinePage from "./components/OfflinePage/OfflinePage";
 import Pagination from "./components/Pagination/Pagination";
-import CaseStudiesList from "./pages/CaseStudiesList/CaseStudieslist";
-import Landing from "./pages/Landing/Landing";
-import OurCaseStudies from "./pages/OurCaseStudies/OurCaseStudies";
-import Services from "./pages/Services/Services";
+import CaseStudiesList from "./Pages/CaseStudiesList/CaseStudieslist";
+import Landing from "./Pages/Landing/Landing";
+import OurCaseStudies from "./Pages/OurCaseStudies/OurCaseStudies";
+import Services from "./Pages/Services/Services";
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
       {/* <CaseStudiesList/> */}
       {/* <Landing/> */}
-      <OurCaseStudies/>
+      {/* <OurCaseStudies/> */}
       {/* <Services/> */}
       {/* <Pagination /> */}
-=======
-      {/* <HomePage/> */}
+      <HomePage/>
       {/* <ContactPage/> */}
-      <AboutPage/>
+      {/* <AboutPage/> */}
       {/* <Services />
       <Landing />
       <OurCase />
       <StudiesList /> */}
->>>>>>> 6f339239ba0460c2c2815a28876be5fea8eb2746
     </div>
   );
 }

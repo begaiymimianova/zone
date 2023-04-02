@@ -1,5 +1,6 @@
 import React from 'react'
 import CoreValues from '../../components/CoreValues/CoreValues'
+import Header from '../../components/Header/Header'
 import MarketingAbout from '../../components/MarketingAbout/MarketingAbout'
 import OurClients from '../../components/OurClients/OurClients'
 import OurStory from '../../components/OurStory/OurStory'

@@ -5,7 +5,7 @@
 
 .container {
     margin: 139px 144px 199px 144px;
-    display: flex;
+    display: flex;  
     gap: 80px;
 }
 
@@ -54,6 +54,8 @@
     border: none;
     padding: 11px 22px;
     background-color: #FA541C;
+    width: 132px;
+    height: 48px;
     margin-right: 24px;
 }
 
@@ -65,4 +67,45 @@
     line-height: 26px;
     color: #212B36;
     margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 56px 20px 120px;
+        display: flex;
+        justify-content: center;
+        width: 375px;
+        height: 596px;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right__title {
+        text-align: center;
+        font-size: 40px;
+        line-height: 50px;
+        width: 335px;
+        height: 100px;
+    }
+
+    .right__txt2 {
+        text-align: center;
+        width: 335px;
+    }
+
+    .container {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

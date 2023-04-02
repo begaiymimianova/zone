@@ -13,7 +13,7 @@ import tripadvisor from '../../accsets/icon/tripadvisor.png'
 function OurClients() {
   return (
     <div className={css.wrapper}>
-        <Title title='Our Clients'/>
+        <h2 className={css.title}>Our Clients</h2>
         <div className={css.items}>
             <div className={css.item_top}>
                 <img src={spotify1} alt="" />

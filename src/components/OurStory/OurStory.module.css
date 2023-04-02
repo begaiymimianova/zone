@@ -114,7 +114,7 @@
     margin-top: 12px;
 }
 
-.title {
+.title, .title4 {
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 700;
@@ -165,4 +165,80 @@
 
 .number4 {
     color: #0CD66E;
+}
+
+.minibottom {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 80px 20px;
+        gap: 64px;
+        width: 375px;
+        height: 1070px;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        width: 335px;
+        height: 150px;
+    }
+
+    .top__txt {
+        width: 335px;
+        text-align: center;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 335px;
+        height: 696px;
+    }
+
+    .bottom {
+        display: none;
+    }
+
+    .minibottom {
+        display: contents;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 335px;
+        height: 696px;
+    }
+
+    .title {
+        width: 186px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .title4 {
+        width: 191px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .active {
+        width: 335px;
+        height: 174px;
+    }
+
+    .txt {
+        width: 299px;
+    }
 }

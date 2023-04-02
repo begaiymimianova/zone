@@ -11,7 +11,7 @@ function OurWork() {
             <div className={css.wrapper}>
                 <div className={css.top}>
                     <p className={css.top__txt}>Our Work</p>
-                    <Title title="Case Studies" />
+                    <h2 className={css.top__title}>Case Studies</h2>
                 </div>
                 <div className={css.bottom}>
                     <div className={css.bottom__left}>
@@ -60,6 +60,9 @@ function OurWork() {
                             <h6 className={css.web__title}>Gillette</h6>
                         </div>
                     </div>
+                </div>
+                <div className={css.minibottom}>
+
                 </div>
                 <div className={css.view}>
                     <button className={css.all}>View All <img className={css.icon} src={icon} alt="" /></button>
