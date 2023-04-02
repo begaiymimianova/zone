@@ -1,0 +1,113 @@
+.wrapper{
+    background: rgba(22, 28, 36, 1);
+    height: 752px;
+    width: 100%;
+}
+.upperLeft{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.people{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+width: 806px;
+height: 436px;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    width: 368px;
+    height: 432px;
+
+}
+.arrow{
+    width: 30px;
+    height: 25px;
+}
+.sliderButton{
+    background: rgba(22, 28, 36, 1);
+    border: none;
+    border: 2px solid rgba(250, 84, 28, 0.24);
+    background: rgba(22, 28, 36, 1);
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 10px;
+}
+/* button{
+    background: rgba(22, 28, 36, 1);
+    border: none;
+} */
+.slider{
+    background: rgba(22, 28, 36, 1);
+    border: none;
+}
+.meatYourTeam{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+color: #ffff;
+}
+.text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #ffff;
+}
+
+.team{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+color: rgba(255, 255, 255, 1);
+opacity: 0.48;
+}
+.cards{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 0px 0px 144px;
+gap: 122px;
+position: absolute;
+top: 160px;
+}
+
+.name{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffff;
+
+}
+.info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #919EAB;
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
