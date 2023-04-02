@@ -7,6 +7,7 @@ import OurCaseStudies from "./Pages/OurCaseStudies/OurCaseStudies";
 import Services from "./Pages/Services/Services";
 import Team from "./components/Team/Team";
 import TeamSlider from "./components/TeamSlider/TeamSlider";
+import LatestPosts from "./components/LatestPost/LatestPost";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       {/* <ContactPage/> */}
       {/* <HomePage /> */}
       {/* <TeamSlider /> */}
+      {/* <LatestPosts /> */}
     </div>
   );
 }
