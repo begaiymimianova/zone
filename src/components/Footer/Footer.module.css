@@ -2,7 +2,7 @@
   background-image: url(../../assets/Footer/BG.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 500px;
   display: flex;
   justify-content: space-between;
   padding: 4% 8%;
@@ -25,7 +25,8 @@
   line-height: 28px;
   color: #ffffff;
 }
-.block {
+.block,
+.block2 {
   display: flex;
   gap: 15px;
 }
@@ -39,6 +40,7 @@
   border-radius: 8px;
   border: none;
   padding: 0px 20px;
+  color: #f9fafb;
 }
 .btn {
   display: flex;
@@ -59,7 +61,7 @@
   align-items: center;
   gap: 24px;
   /* width: 100%; */
-  height: 20vh;
+  height: 30vh;
   background: #f9fafb;
   justify-content: space-between;
   padding: 4% 8%;
@@ -105,5 +107,103 @@
   background: #fa541c;
   border-radius: 0px 8px 8px 0px;
   border: none;
-  color:#ffffff;
+  color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+  .input {
+    margin: 15px;
+    margin-left: 10%;
+    background: rgba(145, 158, 171, 0.15);
+  }
+  .footer_top {
+    display: block;
+    height: 100%;
+  }
+  .footer h1 {
+    width: 334px;
+    font-size: 58px;
+    line-height: 68px;
+    text-align: center;
+    margin-left: 15%;
+  }
+  .block {
+    margin-left: 22%;
+  }
+  .block2 {
+    margin-left: 15%;
+  }
+  .btn {
+    margin-left: 10%;
+  }
+  .footer_bottom {
+    display: block;
+    height: 100%;
+  }
+  .right {
+    margin-bottom: 20px;
+    margin-left: 10%;
+  }
+  .left {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 900px) {
+  .footer h1 {
+    margin-left: 3%;
+  }
+  .footer .block {
+    margin-left: 22%;
+  }
+  .block2 p {
+    width: 200px;
+  }
+  .block2 {
+    margin-left: 23%;
+  }
+  .footer .input {
+    margin-left: 0%;
+    width: 334px;
+  }
+  .footer .btn {
+    margin-left: 23%;
+  }
+  .right {
+    margin-bottom: 30px;
+    display: block;
+    margin-left: 0;
+  }
+  .box p,
+  .box h2 {
+    text-align: center;
+  }
+  .right img {
+    margin-left: 36%;
+  }
+}
+@media (max-width: 876px) {
+  .footer h1 {
+    margin-left: -2%;
+  }
+  .input {
+    margin-left: 2%;
+    width: 300px;
+  }
+  .left {
+    margin-left: 0;
+  }
+  .footer .block,
+  .block2 {
+    margin-left: 8%;
+  }
+  .footer .btn{
+    margin-left: 12%;
+  }
+  .box p, .box h2{
+    text-align: start;
+    margin-left: 2%;
+  }
+  .right img{
+    margin-left: 12%;
+  }
 }

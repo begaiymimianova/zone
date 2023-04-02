@@ -14,7 +14,7 @@ function Footer() {
             <img src={email} alt="email" />
             <p>Hello@agency.com</p>
           </div>
-          <div className={styles.block}>
+          <div className={styles.block2}>
             <img src={location} alt="location" />
             <p>508 Bridle Avenue Newnan, GA 30263</p>
           </div>
@@ -44,7 +44,7 @@ function Footer() {
           <button className={styles.btn2}>Sign Up</button>
         </div>
       </div>
-      <Footer2 />
+      {/* <Footer2 /> */}
     </div>
   );
 }

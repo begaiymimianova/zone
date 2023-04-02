@@ -1,3 +1,8 @@
+.wrapper {
+    height: 100vh;
+    background: #F9FAFB;
+    padding-top: 120px;
+}
 .txt1 {
     font-family: 'Poppins';
     font-style: normal;
@@ -8,13 +13,10 @@
     width: 536px;
 }
 
-h3 {
+.slider {
     display: flex;
-    justify-content: center;
-    gap: 80px;
-    width: 1152px;
-    height: 172px;
-    margin-bottom: 85px;
+    margin: 10% 10%;
+    justify-content: space-around;
 }
 
 .slideText {
@@ -78,8 +80,4 @@ h3 {
     color: orange;
 }
 
-.wrapper {
-    height: 690px;
-    background: #F9FAFB;
-    padding-top: 120px;
-}
+

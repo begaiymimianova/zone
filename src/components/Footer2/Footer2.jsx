@@ -49,8 +49,8 @@ function Footer2() {
       <div className={styles.footer_bottom}>
         <p>©2021. All rights reserved</p>
         <div className={styles.bottom_left}>
-          <a className={styles.textA}>Help Center</a>
-          <a className={styles.textA}>Terms of Service</a>
+          <a href="" className={styles.textA}>Help Center</a>
+          <a  href="" className={styles.textA}>Terms of Service</a>
         </div>
       </div>
     </>

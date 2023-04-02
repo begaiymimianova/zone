@@ -88,21 +88,31 @@
   color: #637381;
   margin-left: 0%;
 }
-.ul {
+.ul,
+.ul_right,
+.ul6 {
   width: 16px;
   height: 16px;
   background: linear-gradient(135deg, #fdab76 0%, #fa541c 100%);
   border-radius: 50%;
   margin: 22px;
 }
-.ul2 {
+.ul_right,
+.ul2_right,
+.ul3_right {
+  display: none;
+}
+.ul2,
+.ul2_right {
   width: 16px;
   height: 16px;
   background: linear-gradient(135deg, #69f290 0%, #0cd66e 100%);
   border-radius: 50%;
   margin: 22px;
 }
-.ul3 {
+.ul3,
+.ul3_right,
+.ul5 {
   width: 16px;
   height: 16px;
   background: linear-gradient(135deg, #77f0ed 0%, #22b8cf 100%);
@@ -118,4 +128,96 @@
   margin-top: 20px;
   margin-left: 64px;
   margin-right: 22px;
+}
+
+@media (max-width: 992px) {
+  .middle {
+    margin: 0;
+  }
+  .middle2 {
+    margin-bottom: 0;
+  }
+  .top2 {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .ul4 {
+    margin-left: 22px;
+  }
+  .achieved p {
+    margin-left: 20%;
+    text-align: center;
+  }
+  .bottom_content {
+    display: block;
+  }
+  .ul_right,
+  .ul2_right,
+  .ul3_right,
+  .ul4_right {
+    display: block;
+  }
+  .ul,
+  .ul2,
+  .ul3 {
+    display: none;
+  }
+  .right_content h1 {
+    text-align: left;
+  }
+  .achieved .right_content p,
+  .left_content p {
+    margin-left: 0px;
+    text-align: left;
+  }
+  .right_content,
+  .middle_content,
+  .left_content {
+    margin-left: 30%;
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 876px) {
+  .right_content,
+  .left_content {
+    margin-left: 24%;
+    margin-bottom: 10%;
+  }
+  .middle_content {
+    display: none;
+  }
+  .achieved p {
+    margin-left: 16%;
+    text-align: center;
+  }
+  .left_content p {
+    margin-left: 0px;
+    text-align: left;
+  }
+}
+@media (max-width: 768px) {
+  .achieved p {
+    margin-left: 12%;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .achieved p {
+    margin-left: 14%;
+    text-align: center;
+    width: 220px;
+    margin-bottom: 15%;
+  }
+  .middle_content {
+    display: none;
+  }
+  .right_content,
+  .middle_content,
+  .left_content {
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+  .left_content p {
+    text-align: left;
+  }
 }
