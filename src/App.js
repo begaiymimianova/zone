@@ -8,7 +8,9 @@ import Services from "./Pages/Services/Services";
 import Team from "./components/Team/Team";
 import TeamSlider from "./components/TeamSlider/TeamSlider";
 import LatestPosts from "./components/LatestPost/LatestPost";
-
+import MainSlider from "./components/MainSlider/MainSlider";
+import MarketingMain from "./components/MarketingMain/MarketMain";
+import MarketingBlog from "./Pages/MarketingBlog/MarketingBlog";
 function App() {
   return (
     <div className="App">
@@ -20,6 +22,7 @@ function App() {
       {/* <HomePage /> */}
       {/* <TeamSlider /> */}
       {/* <LatestPosts /> */}
+      {/* <MarketingBlog /> */}
     </div>
   );
 }

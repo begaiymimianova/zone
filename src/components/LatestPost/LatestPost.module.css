@@ -168,3 +168,33 @@
   gap: 80px;
   background: rgb(255, 255, 255);
 }
+
+@media (max-width: 1200px) {
+  .title {
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .boxes {
+    display: block;
+    height: 320px;
+  }
+}
+@media (max-width: 677px) {
+  .title {
+    width: 894px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 6px;
+  }
+  .secondBox,
+  .thirdBox {
+    display: none;
+  }
+  .main {
+    padding: 100px 25px;
+  }
+  .wrapper {
+    width: 350px;
+  }
+}
