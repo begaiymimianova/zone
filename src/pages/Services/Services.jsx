@@ -6,6 +6,7 @@ import OfflineSeo from "../../components/OfflineSeo/OfflineSeo";
 import Footer from "../../components/Footer/Footer";
 import SliderTest from "../../components/SliderTest/SliderTest";
 import Footer2 from "../../components/Footer2/Footer2";
+import LatestPosts from "../../components/LatestPost/LatestPost";
 function Services() {
   return (
     <div>
@@ -15,6 +16,7 @@ function Services() {
       <Achieved />
       <ItWorks />
       <SliderTest />
+      <LatestPosts />
       <Footer />
       <Footer2 />
     </div>

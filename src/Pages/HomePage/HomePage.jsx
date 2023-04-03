@@ -11,6 +11,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import Footer2 from "../../components/Footer2/Footer2";
 import SliderTest from "../../components/SliderTest/SliderTest";
+import LatestPosts from "../../components/LatestPost/LatestPost";
 
 function HomePage() {
   return (
@@ -24,9 +25,10 @@ function HomePage() {
       <OurWork />
       <Check />
       <Questions />
-      <SliderTest/>
+      <SliderTest />
+      <LatestPosts />
       <Footer />
-      <Footer2/>
+      <Footer2 />
     </div>
   );
 }
