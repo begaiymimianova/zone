@@ -12,7 +12,7 @@ function SampleNextArrow(props) {
       className={className}
       style={{ ...style, display: "block", background: "none" }}
       onClick={onClick}
-    > <img src={icon} alt="" /> </div>
+    > <img src={icon} alt="icon" /> </div>
   );
 }
 
@@ -46,64 +46,64 @@ export default class SliderTest extends Component {
         </h2>
         <Slider {...settings}>
           <div>
-            <h3>
+            <div className={css.slider}>
                 <p className={css.txt1}>Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.</p>
                 <div className={css.profile}>
-                    <img src={profile} alt="" />
+                    <img src={profile} alt="profile" />
                     <h4 className={css.title}>Robert Fox</h4>
                     <p className={css.txt2}>Designer</p>
                 </div>
-            </h3>
+            </div>
           </div>
           <div>
-            <h3>
+            <div className={css.slider}>
             <p className={css.txt1}>Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.</p>
                 <div className={css.profile}>
-                    <img src={profile} alt="" />
+                    <img src={profile} alt="profile" />
                     <h4 className={css.title}>Robert Fox</h4>
                     <p className={css.txt2}>Designer</p>
                 </div>
-            </h3>
+            </div>
           </div>
           <div>
-            <h3>
+            <div className={css.slider}>
             <p className={css.txt1}>Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.</p>
                 <div className={css.profile}>
-                    <img src={profile} alt="" />
+                    <img src={profile} alt="profile" />
                     <h4 className={css.title}>Robert Fox</h4>
                     <p className={css.txt2}>Designer</p>
                 </div>
-            </h3>
+            </div>
           </div>
           <div>
-            <h3>
+            <div className={css.slider}>
             <p className={css.txt1}>Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.</p>
                 <div className={css.profile}>
-                    <img src={profile} alt="" />
+                    <img src={profile} alt="profile" />
                     <h4 className={css.title}>Robert Fox</h4>
                     <p className={css.txt2}>Designer</p>
                 </div>
-            </h3>
+            </div>
           </div>
           <div>
-            <h3>
+            <div className={css.slider}>
             <p className={css.txt1}>Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.</p>
                 <div className={css.profile}>
-                    <img src={profile} alt="" />
+                    <img src={profile} alt="profile" />
                     <h4 className={css.title}>Robert Fox</h4>
                     <p className={css.txt2}>Designer</p>
                 </div>
-            </h3>
+            </div>
           </div>
           <div>
-            <h3>
+            <div className={css.slider}>
             <p className={css.txt1}>Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.</p>
                 <div className={css.profile}>
-                    <img src={profile} alt="" />
+                    <img src={profile} alt="profile" />
                     <h4 className={css.title}>Robert Fox</h4>
                     <p className={css.txt2}>Designer</p>
                 </div>
-            </h3>
+            </div>
           </div>
         </Slider>
       </div>

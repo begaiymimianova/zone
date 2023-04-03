@@ -8,7 +8,7 @@ function OurVision() {
     <div className=" container">
       <div className={css.wrapper}>
         <Title title='Our Vision' color='#FFFFFF' />
-        <img src={play} alt="" />
+        <img src={play} alt="play" />
         <h4 className={css.txt}>Our vision offering the best product nulla vehicula tortor scelerisque ultrices malesuada. </h4>
       </div>
     </div>

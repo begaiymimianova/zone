@@ -18,25 +18,25 @@ function Services() {
       </div>
       <div className={css.bottom}>
         <div className={css.cards1}>
-          <img className={css.cards1__img} src={foto1} alt="" />
+          <img className={css.cards1__img} src={foto1} alt="foto" />
           <h2 className={css.cards1__title}>SEO</h2>
           <p className={css.cards1__txt}>Nunc nonummy metus. Donec elit libero</p>
           <p className={css.strelka}>➜</p>
         </div>
         <div className={css.cards2}>
-          <img className={css.cards2__img} src={foto2} alt="" />
+          <img className={css.cards2__img} src={foto2} alt="foto" />
           <h6 className={css.cards2__title}>Email Marketing</h6>
           <p className={css.cards2__txt}>Nunc nonummy metus. Donec elit libero</p>
           <p className={css.strelka}>➜</p>
         </div>
         <div className={css.cards3}>
-          <img className={css.cards3__img} src={foto3} alt="" />
+          <img className={css.cards3__img} src={foto3} alt="foto" />
           <h6 className={css.cards3__title}>Search Engine Oprimization</h6>
           <p className={css.cards3__txt}>Nunc nonummy metus. Donec elit libero</p>
-          <img src={icon} alt="" />
+          <img src={icon} alt="icon" />
         </div>
         <div className={css.cards4}>
-          <img className={css.cards4__img} src={foto4} alt="" />
+          <img className={css.cards4__img} src={foto4} alt="icon" />
           <h6 className={css.cards4__title}> Social Marketing</h6>
           <p className={css.cards4__txt}>Nunc nonummy metus. Donec elit libero</p>
           <p className={css.strelka}>➜</p>

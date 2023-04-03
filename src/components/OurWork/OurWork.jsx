@@ -25,7 +25,7 @@ function OurWork() {
                     <div className={css.bottom__center}>
                         <div className={css.center__top}>
                             <div className={css.top__main}>
-                                <img className={css.top__img} src={foto} alt="" />
+                                <img className={css.top__img} src={foto} alt="foto" />
                                 <div className={css.top__text}>
                                     <p className={css.main__txt}>branding</p>
                                     <h4 className={css.main__title}>Bank of America</h4>
@@ -44,7 +44,7 @@ function OurWork() {
                                 <h6 className={css.gillete__title}>Gillette</h6>
                             </div>
                             <div className={css.bottom__main}>
-                                <img className={css.top__img} src={foto2} alt="" />
+                                <img className={css.top__img} src={foto2} alt="foto" />
                                 <div className={css.bottom__text}>
                                     <p className={css.main__txt}>SOCIAL</p>
                                     <h4 className={css.main__title}>Louis Vuitton</h4>

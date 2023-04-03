@@ -1,5 +1,6 @@
 .ourCase {
   padding: 0% 8%;
+  margin-bottom: 6%;
 }
 .ourCase h1 {
   font-family: "Barlow", sans-serif;
@@ -22,6 +23,7 @@
   margin-bottom: 3%;
 }
 .ourCase span {
+  width: 50px;
   display: inline;
   justify-content: flex-start;
   font-family: "Poppins", sans-serif;
@@ -88,4 +90,137 @@
   line-height: 28px;
   color: #637381;
   margin: 20px;
+}
+.num {
+  margin-left: 35%;
+}
+.dt {
+  display: none;
+}
+@media (max-width: 1400px) {
+  .middle img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 1200px) {
+  .middle img {
+    width: 220px;
+    height: 220px;
+  }
+  .middle .box {
+    width: 330px;
+  }
+  .box h3 {
+    width: 200px;
+  }
+  .num {
+    margin-left: 26%;
+  }
+}
+@media (max-width: 900px) {
+  .middle {
+    display: block;
+    margin-left: 17%;
+  }
+  .box h3 {
+    width: 100%;
+  }
+  .middle img {
+    width: 500px;
+    height: 500px;
+    margin-top: 10%;
+  }
+  .ourCase h1 {
+    text-align: center;
+    margin-right: 20%;
+  }
+  .ourCase p {
+    text-align: center;
+    margin-left: 15%;
+  }
+  .dt {
+    display: block;
+  }
+  .span {
+    margin-left: 12%;
+  }
+  .span .dalate {
+    display: none;
+  }
+  .hr {
+    margin-bottom: 0;
+    margin-left: 12%;
+  }
+  .box p {
+    text-align: start;
+    margin: 10px 10px;
+  }
+  .middle {
+    display: block;
+    margin-left: 0%;
+  }
+  .num {
+    margin-left: 0;
+  }
+  .num span {
+    margin-left: 19px;
+    margin-right: 19px;
+  }
+}
+@media (max-width: 876px) {
+  .ourCase h1 {
+    margin-right: 12%;
+  }
+  .ourCase p {
+    margin-left: 16%;
+  }
+  .span {
+    margin-left: 10%;
+  }
+  .hr {
+    margin-left: 10%;
+  }
+  .middle {
+    margin-left: 0%;
+  }
+  .num {
+    margin-left: 0%;
+  }
+}
+@media (max-width: 667px){
+  .middle{
+    margin-left: 0%;
+  }
+  .ourCase p{
+    margin-left: 10%;
+  }
+} 
+
+@media (max-width: 576px) {
+  .ourCase h1 {
+    margin-left: 10%;
+  }
+  .ourCase p {
+    margin-right: 10%;
+  }
+  .span {
+    margin-left: 13%;
+  }
+  .hr {
+    margin-left: 13%;
+  }
+  .middle img {
+    width: 320px;
+    height: 320px;
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+  .box p {
+    margin-right: 0;
+    margin-left: 20%;
+  }
+  .box h3 {
+    margin-left: 20%;
+  }
 }

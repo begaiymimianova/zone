@@ -12,6 +12,17 @@
   font-size: 14px;
   line-height: 24px;
   color: #637381;
+  text-decoration: none;
+}
+.a {
+  display: flex;
+}
+.header a:hover {
+  cursor: pointer;
+  color: black;
+}
+.header .burger {
+  display: none;
 }
 .header_right {
   margin-right: 36%;
@@ -33,7 +44,9 @@
   line-height: 24px;
   background-color: black;
 }
-
+.header button:hover {
+  background-color: rgb(46, 45, 45);
+}
 .header_left {
   display: flex;
   justify-content: space-between;
@@ -46,3 +59,55 @@
   border-left: 3px solid rgba(145, 158, 171, 0.24);
   height: 24px;
 }
+
+@media (max-width: 1400px) {
+  .header_right {
+    margin-right: 10%;
+  }
+}
+@media (max-width: 1200px) {
+  .header a {
+    display: none;
+  }
+  .header .burger {
+    display: block;
+    margin-left: 104%;
+    position: absolute;
+  }
+  .header_right {
+    margin-right: 64%;
+  }
+}
+@media (max-width: 992px) {
+  .header a {
+    display: none;
+  }
+  .header .burger {
+    display: block;
+    margin-left: 104%;
+    position: absolute;
+  }
+  .header_right {
+    margin-right: 64%;
+  }
+}
+@media (max-width: 768px) {
+  .header button {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+  .vl {
+    display: none;
+  }
+  .header_left {
+    margin-left: 22%;
+  }
+  .header .burger {
+    margin-left: 140%;
+  }
+}
+/* @media (min-width: 576px) {
+
+} */

@@ -15,7 +15,7 @@ function Questions() {
             <p>Sed augue ipsum, egestas nec, vestibulum et</p>
             <div className={styles.vl}></div>
           </div>
-          <p className={styles.text}>
+          <p className={styles.tx}>
             Curabitur nisi. Phasellus blandit leo ut odio. Donec posuere
             vulputate arcu. Donec mi odio, faucibus at, scelerisque quis,
             convallis in,

@@ -13,12 +13,12 @@ function Main() {
             <p className={css.right__txt2}>Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. </p>
             <div className={css.active}>
                 <button className={css.act__btn}>Try For Free</button>
-                <img src={play} alt="" />
+                <img src={play} alt="icon" />
                 <p className={css.act__txt}>See Our Work</p>
             </div>
         </div>
         <div className={css.left}>
-          <img src={ilustrator} alt="" />
+          <img src={ilustrator} alt="icon" />
         </div>
     </div>
 </div>

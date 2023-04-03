@@ -10,7 +10,7 @@ function CoreValues(props) {
 
     function Card(props) {
         <div className={css.card}>
-            <img src={props.img} alt="" />
+            <img src={props.img} alt="icon" />
             <div className={css.card_text}>
                 <h5 className={css.card__title}>df</h5>
                 <p className={css.card__txt}>gddfg</p>
@@ -23,28 +23,28 @@ function CoreValues(props) {
         <Title title="Our Core Values"/>
         <div className={css.cards}>
             <div className={css.card}>
-                <img src={like} alt="" />
+                <img src={like} alt="like" />
                 <div className={css.card_text}>
                     <h5 className={css.card__title}>Customer Satisfaction</h5>
                     <p className={css.card__txt}>Aenean urna dictum adipiscing nec, cras quisque.</p>
                 </div>
             </div>  
             <div className={css.card}>
-                <img src={tranparency} alt="" />
+                <img src={tranparency} alt="tranparency" />
                 <div className={css.card_text}>
                     <h5 className={css.card__title}>Transparency</h5>
                     <p className={css.card__txt}>Aenean urna dictum adipiscing nec, cras quisque.</p>
                 </div>
             </div>  
             <div className={css.card}>
-                <img src={reputation} alt="" />
+                <img src={reputation} alt="reputation" />
                 <div className={css.card_text}>
                     <h5 className={css.card__title}>Reputation</h5>
                     <p className={css.card__txt}>Aenean urna dictum adipiscing nec, cras quisque.</p>
                 </div>
             </div>  
             <div className={css.card}>
-                <img src={cooperation} alt="" />
+                <img src={cooperation} alt="cooperation" />
                 <div className={css.card_text}>
                     <h5 className={css.card__title}>Cooperation</h5>
                     <p className={css.card__txt}>Aenean urna dictum adipiscing nec, cras quisque.</p>

@@ -11,12 +11,12 @@ function Client() {
   return (
     <div className='container'>
     <div className={css.wrapper}>
-        <img src={spotify} alt="" />
-        <img src={slack} alt="" />
-        <img src={netflix} alt="" />
-        <img src={heroku} alt="" />
-        <img src={vimeo} alt="" />
-        <img src={air} alt="" />
+        <img src={spotify} alt="spotify" />
+        <img src={slack} alt="slack" />
+        <img src={netflix} alt="netflix" />
+        <img src={heroku} alt="heroku" />
+        <img src={vimeo} alt="vimeo" />
+        <img src={air} alt="air" />
     </div>
     </div>
   )

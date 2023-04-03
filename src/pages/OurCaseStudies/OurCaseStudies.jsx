@@ -1,15 +1,17 @@
 import Footer from "../../components/Footer/Footer";
-import Work from "../../components/WhoLoveOurWorkSection/Work";
 import OurCase from "../../components/OurCase/OurCase";
 import Header from "../../components/Header/Header";
+import SliderTest from "../../components/SliderTest/SliderTest";
+import Footer2 from "../../components/Footer2/Footer2";
 
 function OurCaseStudies() {
   return (
     <div>
-      <Header/>
+      <Header />
       <OurCase />
-      <Work />
+      <SliderTest />
       <Footer />
+      <Footer2 />
     </div>
   );
 }

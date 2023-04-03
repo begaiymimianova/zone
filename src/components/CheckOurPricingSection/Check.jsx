@@ -39,15 +39,15 @@ function Check() {
           </p>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>Auto update mode</h3>
+            <h3 className={styles.h3}>Auto update mode</h3>
           </div>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>Online operator 24/7</h3>
+            <h3 className={styles.h3}>Online operator 24/7</h3>
           </div>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>International posting</h3>
+            <h3 className={styles.h3}>International posting</h3>
           </div>
           <button className={styles.btn}>Get Started</button>
         </div>
@@ -66,19 +66,19 @@ function Check() {
           <p>Maecenas nec odio et ante tincidunt tempus.</p>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>Auto update mode</h3>
+            <h3 className={styles.h3}>Auto update mode</h3>
           </div>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>Online operator 24/7</h3>
+            <h3 className={styles.h3}>Online operator 24/7</h3>
           </div>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>International posting</h3>
+            <h3 className={styles.h3}>International posting</h3>
           </div>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>Unique newsletters</h3>
+            <h3 className={styles.h3}>Unique newsletters</h3>
           </div>
           <button className={styles.btn}>Get Started</button>
         </div>
@@ -97,23 +97,23 @@ function Check() {
           <p>Sed lectus. Sed consequat, leo eget bibendum sodales</p>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>Auto update mode</h3>
+            <h3 className={styles.h3}>Auto update mode</h3>
           </div>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>Online operator 24/7</h3>
+            <h3 className={styles.h3}>Online operator 24/7</h3>
           </div>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>International posting</h3>
+            <h3 className={styles.h3}>International posting</h3>
           </div>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>Unique newsletters</h3>
+            <h3 className={styles.h3}>Unique newsletters</h3>
           </div>
           <div className={styles.block}>
             <img src={vector} alt="vector" />
-            <h3>20 Design templates</h3>
+            <h3 className={styles.h3}>20 Design templates</h3>
           </div>
           <button className={styles.btn}>Get Started</button>
         </div>

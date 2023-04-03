@@ -43,7 +43,7 @@ function Team() {
                         </div>
                         <div className={css.teamCard}>
                             <div className={css.img_wrapper}>
-                                <img src={boy} alt="" />
+                                <img src={boy} alt="boy" />
                                 <div className={css.social}>
                                 <a href="https://www.facebook.com/elonreevesmusk/?locale=ru_RU" target={'_blank'}> <img src={facebook} alt="" /> </a>
                                     <a href="https://www.instagram.com/khabib_nurmagomedov/?hl=ru" target={'_blank'}> <img src={instagram} alt="" /> </a>
@@ -58,7 +58,7 @@ function Team() {
                         </div>
                         <div className={css.teamCard}>
                             <div className={css.img_wrapper}>
-                                <img src={girl2} alt="" />
+                                <img src={girl2} alt="girl2" />
                                 <div className={css.social}>
                                 <a href="https://www.facebook.com/elonreevesmusk/?locale=ru_RU" target={'_blank'}> <img src={facebook} alt="" /> </a>
                                     <a href="https://www.instagram.com/khabib_nurmagomedov/?hl=ru" target={'_blank'}> <img src={instagram} alt="" /> </a>
@@ -73,7 +73,7 @@ function Team() {
                         </div>
                         <div className={css.teamCard}>
                             <div className={css.img_wrapper}>
-                                <img src={boy2} alt="" />
+                                <img src={boy2} alt="boy2" />
                                 <div className={css.social}>
                                     <a href="https://www.facebook.com/elonreevesmusk/?locale=ru_RU" target={'_blank'}> <img src={facebook} alt="" /> </a>
                                     <a href="https://www.instagram.com/khabib_nurmagomedov/?hl=ru" target={'_blank'}> <img src={instagram} alt="" /> </a>
@@ -90,7 +90,7 @@ function Team() {
                     <div className={css.bottom__bottom}>
                         <div className={css.teamCard}>
                             <div className={css.img_wrapper}>
-                                <img src={boy3} alt="" />
+                                <img src={boy3} alt="boy3" />
                                 <div className={css.social}>
                                 <a href="https://www.facebook.com/elonreevesmusk/?locale=ru_RU" target={'_blank'}> <img src={facebook} alt="" /> </a>
                                     <a href="https://www.instagram.com/khabib_nurmagomedov/?hl=ru" target={'_blank'}> <img src={instagram} alt="" /> </a>
@@ -105,7 +105,7 @@ function Team() {
                         </div>
                         <div className={css.teamCard}>
                             <div className={css.img_wrapper}>
-                                <img src={girl3} alt="" />
+                                <img src={girl3} alt="girl3" />
                                 <div className={css.social}>
                                     <a href="https://www.facebook.com/elonreevesmusk/?locale=ru_RU" target={'_blank'}> <img src={facebook} alt="" /> </a>
                                     <a href="https://www.instagram.com/khabib_nurmagomedov/?hl=ru" target={'_blank'}> <img src={instagram} alt="" /> </a>
@@ -120,7 +120,7 @@ function Team() {
                         </div>
                         <div className={css.teamCard}>
                             <div className={css.img_wrapper}>
-                                <img className={css.imgBoy} src={boy4} alt="" />
+                                <img className={css.imgBoy} src={boy4} alt="boy4" />
                                 <div className={css.social}>
                                 <a href="https://www.facebook.com/elonreevesmusk/?locale=ru_RU" target={'_blank'}> <img src={facebook} alt="" /> </a>
                                     <a href="https://www.instagram.com/khabib_nurmagomedov/?hl=ru" target={'_blank'}> <img src={instagram} alt="" /> </a>
@@ -135,7 +135,7 @@ function Team() {
                         </div>
                         <div className={css.teamCard}>
                             <div className={css.img_wrapper}>
-                                <img src={girl4} alt="" className={css.girl4} />
+                                <img src={girl4} alt="girl4" className={css.girl4} />
                                 <div className={css.social}>
                                 <a href="https://www.facebook.com/elonreevesmusk/?locale=ru_RU" target={'_blank'}> <img src={facebook} alt="" /> </a>
                                     <a href="https://www.instagram.com/khabib_nurmagomedov/?hl=ru" target={'_blank'}> <img src={instagram} alt="" /> </a>

@@ -13,9 +13,20 @@ a {
   line-height: 24px;
   color: #919eab;
   cursor: pointer;
+  text-decoration: none;
 }
 a:hover {
   color: white;
+}
+.ell {
+  display: flex;
+}
+.ell a {
+  margin-left: 0;
+  margin-right: 0;
+}
+.burger {
+  display: none;
 }
 .header_right {
   margin-right: 30%;
@@ -56,4 +67,62 @@ button {
 .vl {
   border-left: 2px solid #919eab;
   height: 24px;
+}
+
+@media (max-width: 1400px) {
+  .header_right {
+    margin-right: 10%;
+  }
+}
+@media (max-width: 1200px) {
+  a {
+    display: none;
+  }
+  .header_right .ell {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin-left: 104%;
+    position: absolute;
+  }
+  .header_right {
+    margin-right: 64%;
+  }
+}
+@media (max-width: 992px) {
+  a {
+    display: none;
+  }
+  .header_right .ell {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin-left: 104%;
+    position: absolute;
+  }
+  .header_right {
+    margin-right: 64%;
+  }
+}
+@media (max-width: 768px) {
+  .header_right .ell {
+    display: none;
+  }
+  button {
+    display: none;
+  }
+  .image {
+    display: none;
+  }
+  .vl {
+    display: none;
+  }
+  .header_left {
+    margin-left: 22%;
+  }
+  .burger {
+    margin-left: 140%;
+  }
 }

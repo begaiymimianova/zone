@@ -16,7 +16,7 @@ function Contact() {
                 <div className={css.information}>
                     <img src={contact} alt="contact" />
                     <div className={css.visit}>
-                        <img src={location} alt="" />
+                        <img src={location} alt="location" />
                         <div className={css.information__text}>
                             <div className={css.text}>
                                 <h6 className={css.information__title}>Visit us</h6>
@@ -33,14 +33,14 @@ function Contact() {
                         </div>
                     </div>
                     <div className={css.talk}>
-                        <img src={email} alt="" />
+                        <img src={email} alt="email" />
                         <div className={css.information__text}>
                             <h6 className={css.information__title}>Talk to us</h6>
                             <p className={css.information__txt}>hello@example.com</p>
                         </div>
                     </div>
                     <div className={css.working}>
-                        <img src={clock} alt="" />
+                        <img src={clock} alt="clock" />
                         <div className={css.information__text}>
                             <h6 className={css.information__title}>Working Hours</h6>
                             <p className={css.information__txt}>Mon-Fri: 9 am — 6 pm</p>
