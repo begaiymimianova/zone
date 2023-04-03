@@ -12,7 +12,7 @@ function SampleNextArrow(props) {
       className={className}
       style={{ ...style, display: "block", background: "none" }}
       onClick={onClick}
-    > <img src={icon} alt="icon" /> </div>
+    > <img className={css.arrow}  src={icon} alt="" /> </div>
   );
 }
 
@@ -23,7 +23,7 @@ function SamplePrevArrow(props) {
       className={className}
       style={{ ...style, display: "block", background: "none" }}
       onClick={onClick}
-    > <img src={right} alt="" /></div>
+    > <img className={css.arrow} src={right} alt="" /></div>
   );
 }
 

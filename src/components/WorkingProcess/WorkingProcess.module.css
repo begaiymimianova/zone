@@ -51,8 +51,19 @@
 .btn, .btn2, .btn3 {
     display: flex;
     justify-content: end;
-    text-align: right;
-    padding: 0 16px 16px 0;
+    width: 232px;
+}
+
+.btn {
+    padding: 0 35px;
+}
+
+.btn2 {
+    padding: 0 35px;
+}
+
+.btn3 {
+    padding: 0 50px;
 }
 
 .button, .button2, .button3 {
@@ -70,6 +81,7 @@
 
 .btn__icon, .btn__icon2, .btn__icon3 {
     margin-left: 10px;
+    width: 22px;
 }
 
 .card2 {
@@ -131,4 +143,68 @@
     line-height: 30px;    
     text-align: right;    
     color: #02665B;
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 64px 20px;
+        gap: 64px;
+        width: 375px;
+        height: 1074px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 335px;
+        height: 186px;
+    }
+
+    .top__txt {
+        width: 335px;
+        text-align: center;
+    }
+
+    .top__txt2 {
+        width: 335px;
+        text-align: center;
+    }
+
+    .card1, .card2, .card3, .card4 {
+        width: 335px;
+        height: 150px;
+    }
+
+    .card2 > .container {
+        width: 335px;
+    }
+
+    .card3 > .container {
+        width: 335px;
+    }
+
+    .card4 > .container {
+        width: 335px;
+    }
+
+    .btn {
+        padding: 0;
+    }
+
+    .btn2 {
+        padding: 0;
+    }
+
+    .btn3 {
+        padding: 0;
+    }
 }

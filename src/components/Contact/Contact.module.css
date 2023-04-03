@@ -276,7 +276,7 @@
     color: #919EAB;
 }
 
-textarea {
+.message {
     width: 564px;
     height: 128px;    
     background: rgba(145, 158, 171, 0.08);
@@ -311,4 +311,125 @@ textarea {
     font-size: 15px;
     line-height: 26px;    
     color: #FFFFFF;
+}
+
+.range {
+    width: 564px;
+    height: 2px;
+    -webkit-appearance: none;
+    padding: 0;
+    background: rgba(250, 84, 28, 0.48);;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #FA541C;
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        flex-direction: column-reverse;
+        width: 375px;
+        height: 1370px;
+        padding: 64px 0;
+        gap: 64px;
+    }
+    .img__infa {
+        display: none;
+    }
+
+    .information {
+        width: 335px;
+        height: 296px;
+    }
+    
+    .information__text {
+        width: 260px;
+        height: 56px;
+    }
+
+    .forma {
+        width: 335px;
+        height: 882px;
+    }
+
+    .service {
+        width: 335px;
+        height: 712px;
+    }
+
+    .chose {
+        width: 319px;
+        height: 136px;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .name {
+        width: 335px;
+    }
+
+    .lastName {
+        width: 159.5px;
+    }
+
+    .firstName {
+        width: 159.5px;
+    }
+
+    .emailInp {
+        width: 335px;
+    }
+    
+    .number {
+        width: 335px;
+    }
+
+    .company {
+        width: 335px;
+    }
+
+    .company > input {
+        width: 159.5px;
+    }
+
+    .budget {
+        width: 335px;
+    }
+
+    .budget > img {
+        display: none;
+    }
+
+    .range {
+        width: 335px;
+    }
+
+    .message {
+        width: 335px;
+    }
+
+    .textArea {
+        width: 335px;
+    }
+
+    .visit {
+        width: 335px;
+        height: 56px;
+    }
+
+    .call {
+        width: 335px;
+    }
+
+    .talk {
+        width: 335px;
+    }
+
+    .working {
+        width: 335px;
+    }
 }

@@ -11,6 +11,7 @@ import right from "../../assets/OurCase_img/rightVector.svg";
 import left from "../../assets/OurCase_img/leftVector.svg";
 // import Pagination from "../Pagination/Pagination";
 import styles from "./OurCase.module.css";
+import React, { useState} from "react";
 import vectorOur from "../../assets/OurCase_img/left.svg";
 
 function OurCase() {
@@ -33,6 +34,11 @@ function OurCase() {
         </div>
         <div className={styles.hr}></div>
       </div>
+      {/* {currentItems.length > 0 ? (
+        <div className={styles.pagination}> */}
+          {/* {currentItems.map(() => (
+            <Pagination />
+          ))} */}
       {/* <Pagination /> */}
       <div className={styles.middle}>
         <div className={styles.box}>

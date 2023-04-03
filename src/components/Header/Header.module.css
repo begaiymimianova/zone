@@ -1,22 +1,50 @@
-.header {
+header {
   display: flex;
-  height: 5vh;
-  padding: 2% 8%;
+  flex-direction: row;
+  align-items: center;
+  padding: 36px 0;
+  gap: 40px;
 }
-.header a {
-  margin-left: 40px;
-  margin-right: 40px;
-  font-family: "Poppins";
+
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 48px;
+  width: 838px;
+}
+
+.home, .components, .dropbtn, .documentation {
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 24px;  
   color: #637381;
   text-decoration: none;
+  margin: 0;
 }
+
+.home:hover, .components:hover, .dropbtn:hover, .documentation:hover {
+  color: #212B36;
+  font-weight: 700;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 274px;
+  height: 36px;
+}
+
 .a {
   display: flex;
 }
+
 .header a:hover {
   cursor: pointer;
   color: black;
@@ -30,84 +58,142 @@
   justify-content: space-around;
   align-items: center;
 }
-.header button {
-  align-items: center;
-  padding: 6px 16px;
-  width: 83px;
-  height: 36px;
-  border-radius: 8px;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 24px;
-  background-color: black;
-}
-.header button:hover {
-  background-color: rgb(46, 45, 45);
-}
+
 .header_left {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
-}
-.header_left img {
-  margin-right: 40px;
-}
-.vl {
-  border-left: 3px solid rgba(145, 158, 171, 0.24);
-  height: 24px;
+  gap: 20px;
+  width: 274px;
 }
 
-@media (max-width: 1400px) {
-  .header_right {
-    margin-right: 10%;
-  }
+.search {
+  margin-right: 19px;
 }
-@media (max-width: 1200px) {
-  .header a {
+
+.liniya {
+  width: 1px;
+  height: 24px;
+  background: rgba(145, 158, 171, 0.24);
+}
+
+.login {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;  
+  color: #212B36;
+  margin: 0;
+  text-decoration: none;
+}
+
+.login:hover {
+  color: #212B36;
+}
+
+.join {
+  width: 83px;
+  height: 36px;
+  background: #212B36;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;  
+  text-align: center;  
+  color: #FFFFFF;
+}
+
+.dropbtn {
+  background: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.pages {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 16px;
+}
+
+.pages > a {
+  color: black;
+  padding: 10px 6px;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+}
+
+.pages a:hover {
+  background-color: #FA541C;
+  border-radius: 16px;
+}
+
+.dropdown:hover .pages {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #FA541C;
+  color: #FFFFFF;
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    gap: 0;
+  }
+
+  .left {
+    width: 73.89px;
+  }
+
+  .left > a {
     display: none;
   }
-  .header .burger {
-    display: block;
-    margin-left: 104%;
-    position: absolute;
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 88px;
+    height: 40px;
   }
-  .header_right {
-    margin-right: 64%;
-  }
-}
-@media (max-width: 992px) {
-  .header a {
-    display: none;
-  }
-  .header .burger {
-    display: block;
-    margin-left: 104%;
-    position: absolute;
-  }
-  .header_right {
-    margin-right: 64%;
-  }
-}
-@media (max-width: 768px) {
-  .header button {
-    display: none;
-  }
+
   .icon {
     display: none;
   }
-  .vl {
+
+  .burger {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .liniya {
     display: none;
   }
-  .header_left {
-    margin-left: 22%;
-  }
-  .header .burger {
-    margin-left: 140%;
+
+  .join {
+    display: none;
   }
 }
-/* @media (min-width: 576px) {
-
-} */

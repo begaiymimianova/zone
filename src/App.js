@@ -11,25 +11,23 @@ import LatestPosts from "./components/LatestPost/LatestPost";
 import MainSlider from "./components/MainSlider/MainSlider";
 import MarketingMain from "./components/MarketingMain/MarketMain";
 import MarketingBlog from "./Pages/MarketingBlog/MarketingBlog";
-import ImgDetail from "./components/ImgDetali/ImgDetali";
-import Courses from "./components/Courses/Courses";
-import MarketingDetail from "./Pages/MarketingDetail/MarketingDetail";
+import { Route, Routes } from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
-      {/* <CaseStudiesList/> */}
-      {/* <OurCaseStudies/> */}
-      {/* <Services/> */}
-      {/* <AboutPage/> */}
-      {/* <ContactPage/> */}
-      {/* <HomePage /> */}
-      {/* <TeamSlider /> */}
-      {/* <LatestPosts /> */}
-      {/* <MarketingBlog /> */}
-      {/* <ImgDetail /> */}
-      <Courses />
-      {/* <MarketingDetail /> */}
-    </div>
+      <Routes>
+        <Route path="/casestudieslist" element={<CaseStudiesList/>}/>
+        <Route path="/ourcasestudies" element={<OurCaseStudies/>}/>
+        <Route path="/services" element={<Services/>}/>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/contact" element={<ContactPage/>}/>
+        <Route path="aboutpage" element={<AboutPage/>} />
+        {/* < TeamSlider />
+        <LatestPosts /> */}
+        <Route path="/marketingblog" element={<MarketingBlog/>}/>
+      </Routes>
+      </div>
   );
 }
 

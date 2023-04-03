@@ -10,15 +10,13 @@
   padding: 0 144px;
 }
 
-.slick-dots li.slick-active button:before {
+.slick-dots li.slick-active button {
   opacity: .75;
   color: #FA541C;
 }
 
-.slick-next:before, .slick-prev:before {
-  content: '';
-}
-
-.slick-dots li button:before {
-  font-size: 18px;
+@media (max-width: 800px) {
+  .container {
+    padding: 0 20px;
+  }
 }

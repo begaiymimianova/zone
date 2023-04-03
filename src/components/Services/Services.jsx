@@ -13,7 +13,7 @@ function Services() {
       <div className={css.wrapper}>
       <div className={css.top}>
         <p className={css.top__txt}>Our Services</p>
-        <Title title='We Provide'/>
+        <h2 className={css.title}>We Provide</h2>
         <p className={css.top__txt2}>Nunc nonummy metus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.</p>
       </div>
       <div className={css.bottom}>
@@ -33,6 +33,7 @@ function Services() {
           <img className={css.cards3__img} src={foto3} alt="foto" />
           <h6 className={css.cards3__title}>Search Engine Oprimization</h6>
           <p className={css.cards3__txt}>Nunc nonummy metus. Donec elit libero</p>
+          <img className={css.icon} src={icon} alt="" />
           <img src={icon} alt="icon" />
         </div>
         <div className={css.cards4}>
