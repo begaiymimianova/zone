@@ -98,7 +98,7 @@
         line-height: 42px;
     }
 
-    h3 {
+    /* h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -106,7 +106,7 @@
         width: 375px;
         margin-bottom: 150px;
         text-align: center;
-    }
+    } */
 
     .txt1 {
         width: 335px;

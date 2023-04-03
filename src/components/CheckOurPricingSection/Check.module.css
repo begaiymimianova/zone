@@ -109,7 +109,7 @@
   color: #637381;
   text-align: start;
 }
-.block .h3 {
+.block h3 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -195,7 +195,7 @@
   .middle_right,
   .middle,
   .middle_left {
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     text-align: start;
     width: 344px;
   }
@@ -236,7 +236,7 @@
   .middle_right,
   .middle,
   .middle_left {
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     text-align: start;
     width: 320px;
   }
