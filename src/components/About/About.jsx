@@ -8,7 +8,7 @@ function About() {
         <div className='container'>
             <div className={css.wrapper}>
                 <div className={css.top}>
-                    <img className={css.img} src={img} alt="" />
+                    <img className={css.img} src={img} alt="icon" />
                 </div>
                 <div className={css.bottom}>
                     <div className={css.right}>

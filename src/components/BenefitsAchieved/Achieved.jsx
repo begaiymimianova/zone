@@ -14,6 +14,7 @@ function Achieved() {
       <div className={styles.bottom_content}>
         <div className={styles.right_content}>
           <div className={styles.top}>
+            <div className={styles.ul_right}></div>
             <div>
               <h1>Online Media Management</h1>
               <p>
@@ -24,6 +25,7 @@ function Achieved() {
             <div className={styles.ul}></div>
           </div>
           <div className={styles.middle}>
+            <div className={styles.ul2_right}></div>
             <div>
               <h1>Online Media Management</h1>
               <p>Suspendisse enim turpis</p>
@@ -31,6 +33,7 @@ function Achieved() {
             <div className={styles.ul2}></div>
           </div>
           <div className={styles.bottom}>
+            <div className={styles.ul3_right}></div>
             <div>
               <h1>Online Media Management</h1>
               <p>
@@ -46,7 +49,7 @@ function Achieved() {
         </div>{" "}
         <div className={styles.left_content}>
           <div className={styles.top2}>
-            <div className={styles.ul3}></div>
+            <div className={styles.ul5}></div>
             <div>
               <h1>Online Media Management</h1>
               <p>
@@ -63,7 +66,7 @@ function Achieved() {
             </div>
           </div>
           <div className={styles.bottom}>
-            <div className={styles.ul}></div>
+            <div className={styles.ul6}></div>
             <div>
               <h1>Online Media Management</h1>
               <p>

@@ -1,17 +1,21 @@
 import Footer from "../../components/Footer/Footer";
-import Work from "../../components/WhoLoveOurWorkSection/Work";
 import StudiesList from "../../components/StudiesList/Studieslist";
 import MightLike from "../../components/YouMightLike/MightLike";
 import Header from "../../components/Header/Header";
+import SliderTest from "../../components/SliderTest/SliderTest";
+import Footer2 from "../../components/Footer2/Footer2";
+import LatestPosts from "../../components/LatestPost/LatestPost";
 
 function CaseStudiesList() {
   return (
     <div>
-      <Header/>
+      <Header />
       <StudiesList />
-      <Work />
+      <SliderTest />
       <MightLike />
+      <LatestPosts />
       <Footer />
+      <Footer2 />
     </div>
   );
 }

@@ -26,6 +26,18 @@ function OfflinePage() {
             </div>
             <button className={styles.btn}>Analyse</button>
           </div>
+          <div className={styles.box2}>
+            <div className={styles.emailBox}>
+              <img src={email} alt="email" />
+              <p>Email</p>
+            </div>
+            <div className={styles.websiteBox}>
+              <div className={styles.vl}></div>
+              <img src={website_url} alt="website_url" />
+              <p>Website URL</p>
+            </div>
+            <button className={styles.btn}>Analyse</button>
+          </div>
         </div>
       </div>
     </>

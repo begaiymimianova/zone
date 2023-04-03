@@ -21,14 +21,14 @@ function WorkingProcess() {
             </div>
             <div className={css.bottom}>
                 <div className={css.card1}>
-                    <img className={css.card1__img} src={sketch} alt="" />
+                    <img className={css.card1__img} src={sketch} alt="sketch" />
                     <div className={css.btn}>
                         <button className={css.button}>Planning    <img className={css.btn__icon} src={icon} alt="" /></button>
                     </div>
                 </div>
                 <div className={css.card2}>
                     <div className={css.container}>
-                        <img className={css.card2__img} src={search} alt="" />
+                        <img className={css.card2__img} src={search} alt="search" />
                         <div className={css.btn2}>
                             <button className={css.button2}>Research <img className={css.btn__icon2} src={icon2} alt="" /></button>
                         </div>
@@ -36,7 +36,7 @@ function WorkingProcess() {
                 </div>
                 <div className={css.card3}>
                     <div className={css.container}>
-                        <img className={css.card3__img} src={optimization} alt="" />
+                        <img className={css.card3__img} src={optimization} alt="optimizatin" />
                         <div className={css.btn3}>
                             <button className={css.button3}>Optimizing <img className={css.btn__icon3} src={icon3} alt="strelka" /></button>
                         </div>
@@ -44,7 +44,7 @@ function WorkingProcess() {
                 </div>
                 <div className={css.card4}>
                     <div className={css.container}>
-                        <img className={css.card4__img} src={analysis} alt="" />
+                        <img className={css.card4__img} src={analysis} alt="analysis" />
                         <p className={css.card4__txt}>Results</p>
                     </div>
                 </div>

@@ -43,7 +43,7 @@ function MarketingAbout() {
                     <div className={css.card4}>
                         <img className={css.iocn} src={person} alt="" />
                         <h2 className={css.bottom__title}>32k</h2>
-                        <Txt txt="Happy clients" />
+                        <Txt txt="Happy clients"/>
                     </div>
                 </div>
             </div>

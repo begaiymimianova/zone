@@ -54,6 +54,58 @@
   margin: 10px;
 }
 .box img {
-  width: 500px;
-  height: 450px;
+  width: 362px;
+  height: 362px;
+}
+
+@media (max-width: 1400px) {
+  .box img {
+    width: 350px;
+    height: 360px;
+  }
+}
+@media (max-width: 1200px) {
+  .contentBottom {
+    display: block;
+    padding: 0% 3%;
+  }
+  .contentTop {
+    justify-content: start;
+    gap: 8%;
+  }
+}
+@media (max-width: 992px) {
+  .mightLike {
+    padding: 0% 10%;
+  }
+  .contentTop p {
+    margin-right: 0%;
+  }
+  .contentTop {
+    margin-left: 6%;
+  }
+}
+@media (max-width: 876px) {
+  .mightLike {
+    padding: 0% 3%;
+  }
+  .contentTop {
+    margin-right: 0%;
+  }
+}
+@media (max-width: 768px) {
+  .mightLike {
+    padding: 0% 8%;
+  }
+  .contentTop {
+    margin-right: 20%;
+  }
+}
+@media (max-width: 576px) {
+  .mightLike {
+    padding: 0%;
+  }
+  .contentTop {
+    margin-right: 20%;
+  }
 }

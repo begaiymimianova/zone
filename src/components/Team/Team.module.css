@@ -165,7 +165,8 @@
         display: contents;
     }
     
-    a {
+    .social a {
+        display: contents;
         margin-left: 0;
         margin-right: 0;
     }

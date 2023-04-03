@@ -3,9 +3,10 @@ import Achieved from "../../components/BenefitsAchieved/Achieved";
 import ItWorks from "../../components/HowItWorks/ItWorks";
 import OfflinePage from "../../components/OfflinePage/OfflinePage";
 import OfflineSeo from "../../components/OfflineSeo/OfflineSeo";
-import Work from "../../components/WhoLoveOurWorkSection/Work";
 import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header/Header";
+import SliderTest from "../../components/SliderTest/SliderTest";
+import Footer2 from "../../components/Footer2/Footer2";
+import LatestPosts from "../../components/LatestPost/LatestPost";
 function Services() {
   return (
     <div>
@@ -14,8 +15,10 @@ function Services() {
       <ServicesInclude />
       <Achieved />
       <ItWorks />
-      <Work />
+      <SliderTest />
+      <LatestPosts />
       <Footer />
+      <Footer2 />
     </div>
   );
 }

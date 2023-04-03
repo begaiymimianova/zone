@@ -1,0 +1,200 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0px;
+  gap: 80px;
+  width: 100%;
+}
+.title {
+  display: flex;
+  justify-content: flex-start;
+  width: 1350px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #212b36;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.profile1,
+.profile2,
+.profile3 {
+  height: 40px;
+  width: 40px;
+}
+.name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #212b36;
+}
+
+.name2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffff;
+}
+.AliceCarousel {
+  display: flex;
+  align-items: center;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+.firstBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  height: 482px;
+}
+.secondBox {
+  background-image: url("../../assets/LatestPost/LatestBag.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 20px;
+  width: 473px;
+  height: 482px;
+  background-size: cover;
+}
+.thirdBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 20px;
+  width: 473px;
+  height: 482px;
+}
+.firstBox,
+.secondBox,
+.thirdBox {
+  box-shadow: -12px 12px 48px -4px rgba(122, 132, 143, 0.12);
+  border-radius: 16px;
+}
+.headerFirst,
+.headerSecond,
+.headerThird {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+.topText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #919eab;
+}
+.firstText,
+.thirdText {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #212b36;
+}
+.secondText {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffff;
+}
+.arrow {
+  height: 10px;
+}
+.sliderButton {
+  border: none;
+  background-color: #fff;
+}
+
+.prevP {
+  width: 50%;
+  text-align: left;
+}
+.nextP {
+  width: 50%;
+  text-align: right;
+}
+.customPrevButton {
+  left: 10px;
+  position: absolute;
+  top: 200px;
+}
+.customNextButton {
+  right: 10px;
+  top: 200px;
+  position: absolute;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+  padding: 120px 144px;
+  gap: 80px;
+  background: rgb(255, 255, 255);
+}
+
+@media (max-width: 1200px) {
+  .title {
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .boxes {
+    display: block;
+    height: 320px;
+  }
+}
+@media (max-width: 677px) {
+  .title {
+    width: 894px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 6px;
+  }
+  .secondBox,
+  .thirdBox {
+    display: none;
+  }
+  .main {
+    padding: 100px 25px;
+  }
+  .wrapper {
+    width: 350px;
+  }
+}

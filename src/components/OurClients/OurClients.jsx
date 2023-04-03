@@ -16,16 +16,16 @@ function OurClients() {
         <h2 className={css.title}>Our Clients</h2>
         <div className={css.items}>
             <div className={css.item_top}>
-                <img src={spotify1} alt="" />
-                <img src={slack1} alt="" />
-                <img src={shape} alt="" />
-                <img src={microsoft1} alt="" />
+                <img src={spotify1} alt="icon" />
+                <img src={slack1} alt="icon" />
+                <img src={shape} alt="icon" />
+                <img src={microsoft1} alt="icon" />
             </div>
             <div className={css.item_bottom}>
-              <img src={vimeo} alt="" />
-              <img src={airbnb} alt="" />
-              <img src={google} alt="" />
-              <img src={tripadvisor} alt="" />
+              <img src={vimeo} alt="icon" />
+              <img src={airbnb} alt="icon" />
+              <img src={google} alt="icon" />
+              <img src={tripadvisor} alt="icon" />
             </div>
         </div>
     </div>

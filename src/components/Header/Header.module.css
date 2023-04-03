@@ -35,6 +35,34 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 274px;
+  height: 36px;
+}
+
+.a {
+  display: flex;
+}
+
+.header a:hover {
+  cursor: pointer;
+  color: black;
+}
+.header .burger {
+  display: none;
+}
+.header_right {
+  margin-right: 36%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   gap: 20px;
   width: 274px;
 }
@@ -118,4 +146,54 @@ header {
 .dropdown:hover .dropbtn {
   background-color: #FA541C;
   color: #FFFFFF;
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    gap: 0;
+  }
+
+  .left {
+    width: 73.89px;
+  }
+
+  .left > a {
+    display: none;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 88px;
+    height: 40px;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .liniya {
+    display: none;
+  }
+
+  .join {
+    display: none;
+  }
 }

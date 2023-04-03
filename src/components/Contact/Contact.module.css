@@ -314,13 +314,11 @@
 }
 
 .range {
-    background: rgba(250, 84, 28, 0.48);;
     width: 564px;
     height: 2px;
-    border-radius: 1px;
-    outline: none;
     -webkit-appearance: none;
-
+    padding: 0;
+    background: rgba(250, 84, 28, 0.48);;
 }
 
 .range::-webkit-slider-thumb {

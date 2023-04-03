@@ -1,0 +1,288 @@
+.marketingMain {
+  padding: 4% 8%;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  background-image: url(../../assets/MarcetingBlog/Ratio\ Overlay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 357px;
+  height: 482px;
+  padding: 2% 2%;
+}
+.card2 {
+  background-image: url(../../assets/MarcetingBlog/Ratio\ Overlay2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 357px;
+  height: 482px;
+  padding: 2% 2%;
+}
+.card3 {
+  background-image: url(../../assets/MarcetingBlog/Ratio\ Overlay3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 357px;
+  height: 482px;
+  padding: 2% 2%;
+}
+.card4 {
+  background-image: url(../../assets/MarcetingBlog/Ratio\ Overlay4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 357px;
+  height: 482px;
+  padding: 2% 2%;
+}
+.card5 {
+  background-image: url(../../assets/MarcetingBlog/Ratio\ Overlay5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 357px;
+  height: 482px;
+  padding: 2% 2%;
+}
+.card6 {
+  background-image: url(../../assets/MarcetingBlog/Ratio\ Overlay6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 357px;
+  height: 482px;
+  padding: 2% 2%;
+}
+.card7 {
+  background-image: url(../../assets/MarcetingBlog/Ratio\ Overlay7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 357px;
+  height: 482px;
+  padding: 2% 2%;
+}
+.card8 {
+  background-image: url(../../assets/MarcetingBlog/Ratio\ Overlay8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 357px;
+  height: 482px;
+  padding: 2% 2%;
+  border-radius: 15px;
+}
+.rightCon span img,
+.boxLeft span img {
+  padding: 4px 8px;
+}
+.bottomCard {
+  display: flex;
+}
+.bottomCard p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: white;
+  margin: 10px;
+}
+.rightCon h1 {
+  width: 277px;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 64%;
+}
+.topCon,
+.middCon,
+.middCon2,
+.middCon3 {
+  display: flex;
+  gap: 2%;
+  margin-bottom: 3%;
+}
+.rightBottom {
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  margin: 10px 214px;
+  align-items: baseline;
+}
+.activ {
+  width: 40px;
+  height: 40px;
+  background: rgba(250, 84, 28, 0.08);
+  border-radius: 50px;
+  padding: 10px 16px;
+}
+.input {
+  display: flex;
+}
+.input img {
+  position: absolute;
+  margin: 15px 10px;
+}
+input {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  padding: 14px 0px 14px 14px;
+  gap: 8px;
+  width: 362px;
+  height: 54px;
+  background: rgba(145, 158, 171, 0.08);
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  padding-left: 40px;
+}
+.leftTop h1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #212b36;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.leftMidd {
+  margin-bottom: 5%;
+}
+.leftMidd h1 {
+  margin-bottom: 30px;
+}
+.li {
+  width: 6px;
+  height: 6px;
+  background: #fa541c;
+  border-radius: 50%;
+}
+.ul {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.ul p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #212b36;
+}
+.boxLeft {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+.boxLeft h4 {
+  width: 246px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  color: #212b36;
+}
+.textBox {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.textBox p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #637381;
+  width: auto;
+  height: 34px;
+  background: rgba(145, 158, 171, 0.16);
+  border-radius: 8px;
+  padding: 5px 15px;
+}
+.leftMidd2 h1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #212b36;
+  margin-bottom: 20px;
+}
+.leftBottom {
+  background-image: url(../../assets/MarcetingBlog/BacgraundRatio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 342px;
+  width: 342px;
+  margin-top: 5%;
+}
+.leftBottom h3 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #22b8cf;
+  padding-top: 40%;
+}
+.leftBottom p {
+  width: 262px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 30px;
+}
+.leftBottom button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  width: 87px;
+  height: 36px;
+  background: #fa541c;
+  border-radius: 8px;
+  color: white;
+  margin: 20px auto;
+}
+
+@media (max-width: 1200px) {
+  .marketingMain {
+    display: block;
+  }
+}
+@media (max-width: 756px) {
+  .topCon,
+  .middCon,
+  .middCon2,
+  .middCon3 {
+    display: block;
+  }
+  .card,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7,
+  .card8 {
+    margin-bottom: 3%;
+  }
+  .rightBottom {
+    margin: 10px 15px;
+  }
+}

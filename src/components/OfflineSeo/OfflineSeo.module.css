@@ -62,3 +62,35 @@
   color: #212b36;
   background-color: white;
 }
+
+@media (max-width: 1200px) {
+  .offlineSeo {
+    gap: 100px;
+    margin: 0 16%;
+  }
+}
+@media (max-width: 992px) {
+  .offlineSeo {
+    display: block;
+    margin: 0 18%;
+  }
+}
+@media (max-width: 876px) {
+  .offlineSeo {
+    display: block;
+    margin: 0 12%;
+  }
+}
+@media (max-width: 768px) {
+  .offlineSeo {
+    display: block;
+    margin: 0 14%;
+  }
+}
+@media (max-width: 576px) {
+  .offlineSeo {
+    display: block;
+    margin: 0 4%;
+  }
+}
+
