@@ -12,6 +12,7 @@ import Footer from "../../components/Footer/Footer";
 import Footer2 from "../../components/Footer2/Footer2";
 import SliderTest from "../../components/SliderTest/SliderTest";
 import LatestPosts from "../../components/LatestPost/LatestPost";
+import TeamSlider from "../../components/TeamSlider/TeamSlider";
 
 function HomePage() {
   return (
@@ -23,6 +24,7 @@ function HomePage() {
       <Services />
       <WorkingProcess />
       <OurWork />
+      <TeamSlider />
       <Check />
       <Questions />
       <SliderTest />

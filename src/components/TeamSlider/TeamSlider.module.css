@@ -1,113 +1,155 @@
-.wrapper{
-    background: rgba(22, 28, 36, 1);
-    height: 752px;
-    width: 100%;
+.wrapper {
+  background: #161c24;
+  height: 752px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.upperLeft{
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5gi00px;
+}
+
+.left_bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+.txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.title {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.txt2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  width: 368px;
+}
+
+.left {
+  width: 368px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 80px;
+}
+
+.right {
+  width: 806px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+
+.right__title {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.right__txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #919eab;
+}
+
+.teamcard1,
+.teamcard2,
+.teamcard3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right div > img {
+  border-radius: 16px;
+}
+
+@media (max-width: 576px) {
+  .teamcard2 {
+    display: none;
+  }
+
+  .teamcard3 {
+    display: none;
+  }
+  .left_bottom {
+    display: none;
+  }
+
+  .title {
+    width: 209px;
+    font-size: 32px;
+    line-height: 42px;
+    color: #fa541c;
+    text-align: center;
+  }
+
+  .container {
     display: flex;
-    gap: 50px;
+    gap: 64px;
     flex-direction: column;
-}
-.people{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 32px;
-width: 806px;
-height: 436px;
+    align-items: center;
+    width: 375px;
+  }
 
-}
-
-.left{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0px;
-    width: 368px;
-    height: 432px;
-
-}
-.arrow{
-    width: 30px;
-    height: 25px;
-}
-.sliderButton{
-    background: rgba(22, 28, 36, 1);
-    border: none;
-    border: 2px solid rgba(250, 84, 28, 0.24);
-    background: rgba(22, 28, 36, 1);
-    border-radius: 30px;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    outline: none;
-    margin-right: 10px;
-}
-/* button{
-    background: rgba(22, 28, 36, 1);
-    border: none;
-} */
-.slider{
-    background: rgba(22, 28, 36, 1);
-    border: none;
-}
-.meatYourTeam{
-    font-family: 'Barlow';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 64px;
-color: #ffff;
-}
-.text{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-color: #ffff;
-}
-
-.team{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 20px;
-color: rgba(255, 255, 255, 1);
-opacity: 0.48;
-}
-.cards{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px 0px 0px 144px;
-gap: 122px;
-position: absolute;
-top: 160px;
-}
-
-.name{
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    color: #ffff;
-
-}
-.info{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 24px;
-    color: #919EAB;
-}
-.cardInfo{
+  .left_top {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .left {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

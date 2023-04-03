@@ -1,128 +1,194 @@
 .header {
   display: flex;
-  height: 5vh;
-  padding: 4% 9%;
+  flex-direction: row;
+  align-items: center;
+  padding: 36px 0;
+  gap: 40px;
 }
-a {
-  margin-left: 40px;
-  margin-right: 40px;
+
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 48px;
+  width: 838px;
+}
+
+.home,
+.components,
+.dropbtn,
+.documentation {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: #919eab;
-  cursor: pointer;
+  color: #637381;
   text-decoration: none;
+  margin: 0;
 }
-a:hover {
-  color: white;
+
+.home:hover,
+.components:hover,
+.dropbtn:hover,
+.documentation:hover {
+  color: #ffffff;
+  font-weight: 700;
 }
-.ell {
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 274px;
+  height: 36px;
+}
+
+.a {
   display: flex;
 }
-.ell a {
-  margin-left: 0;
-  margin-right: 0;
+
+.header a:hover {
+  cursor: pointer;
+  color: #ffffff;
 }
+.header .burger {
+  display: none;
+}
+
+.search {
+  margin-right: 19px;
+}
+
+.liniya {
+  width: 1px;
+  height: 24px;
+  background: rgba(145, 158, 171, 0.24);
+}
+
+.login {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+  text-decoration: none;
+}
+
+.login:hover {
+  color: #212b36;
+}
+
+.join {
+  width: 83px;
+  height: 36px;
+  background: #ffffff;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #212b36;
+  border: none;
+}
+
+.dropbtn {
+  background: none;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.pages {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 16px;
+}
+
+.pages > a {
+  color: black;
+  padding: 10px 6px;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+}
+
+.pages a:hover {
+  background-color: #ffffff;
+  border-radius: 16px;
+  color: #212b36;
+}
+
+.dropdown:hover .pages {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  color: #212b36;
+}
+
 .burger {
   display: none;
 }
-.header_right {
-  margin-right: 30%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-button {
-  align-items: center;
-  padding: 6px 16px;
-  width: 83px;
-  height: 36px;
-  border-radius: 8px;
-  color: black;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 24px;
-  background-color: white;
-  border: none;
-  cursor: pointer;
-}
 
-.header_left {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.image {
-  margin-right: 40px;
-  margin-left: 5px;
-}
-.ellipse {
-  margin-right: 10px;
-  margin-bottom: 2px;
-}
-.vl {
-  border-left: 2px solid #919eab;
-  height: 24px;
-}
-
-@media (max-width: 1400px) {
-  .header_right {
-    margin-right: 10%;
+@media (max-width: 576px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    gap: 0;
   }
-}
-@media (max-width: 1200px) {
-  a {
+
+  .left {
+    width: 73.89px;
+  }
+
+  .left > a {
     display: none;
   }
-  .header_right .ell {
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 88px;
+    height: 40px;
+  }
+
+  .icon {
     display: none;
   }
+
   .burger {
     display: block;
-    margin-left: 104%;
-    position: absolute;
+    margin-right: 20px;
   }
-  .header_right {
-    margin-right: 64%;
-  }
-}
-@media (max-width: 992px) {
-  a {
+
+  .liniya {
     display: none;
   }
-  .header_right .ell {
+
+  .join {
     display: none;
-  }
-  .burger {
-    display: block;
-    margin-left: 104%;
-    position: absolute;
-  }
-  .header_right {
-    margin-right: 64%;
-  }
-}
-@media (max-width: 768px) {
-  .header_right .ell {
-    display: none;
-  }
-  button {
-    display: none;
-  }
-  .image {
-    display: none;
-  }
-  .vl {
-    display: none;
-  }
-  .header_left {
-    margin-left: 22%;
-  }
-  .burger {
-    margin-left: 140%;
   }
 }
