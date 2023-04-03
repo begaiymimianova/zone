@@ -27,7 +27,7 @@ function App() {
         <LatestPosts /> */}
         <Route path="/marketingblog" element={<MarketingBlog/>}/>
       </Routes>
-    </div>
+      </div>
   );
 }
 
