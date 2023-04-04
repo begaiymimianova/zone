@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -11,8 +12,8 @@
 }
 
 .slick-dots li.slick-active button {
-  opacity: .75;
-  color: #FA541C;
+  opacity: 0.75;
+  color: #fa541c;
 }
 
 @media (max-width: 800px) {

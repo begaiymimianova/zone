@@ -28,6 +28,7 @@
   margin-bottom: 30px;
 }
 .footer_left {
+  display: flex;
   margin-bottom: 20px;
 }
 .middleTop,
@@ -151,13 +152,13 @@
     margin-left: 22%;
     margin-top: 5%;
   }
-  .icons{
+  .icons {
     margin-left: 0;
     margin-right: 35%;
   }
 }
-@media (max-width: 667px){
-  .icons{
+@media (max-width: 667px) {
+  .icons {
     margin-right: 12%;
   }
 }
