@@ -11,7 +11,7 @@ function OurWork() {
             <div className={css.wrapper}>
                 <div className={css.top}>
                     <p className={css.top__txt}>Our Work</p>
-                    <Title title="Case Studies" />
+                    <h2 className={css.top__title}>Case Studies</h2>
                 </div>
                 <div className={css.bottom}>
                     <div className={css.bottom__left}>
@@ -58,6 +58,38 @@ function OurWork() {
                         <div className={css.web}>
                             <p className={css.web__txt}>WEB</p>
                             <h6 className={css.web__title}>Gillette</h6>
+                        </div>
+                    </div>
+                </div>
+                <div className={css.minibottom}>
+                    <div className={css.card1}>
+                        <div className={css.text}>
+                            <p className={css.marketing__txt}>marketing</p>
+                            <h6 className={css.marketing__title}>General Electric</h6>
+                        </div>
+                    </div>
+                    <div className={css.card2}>
+                        <div className={css.text}>
+                            <p className={css.marketing__txt}>marketing</p>
+                            <h6 className={css.marketing__title}>Bank of America</h6>
+                        </div>
+                    </div>
+                    <div className={css.card3}>
+                        <div className={css.text}>
+                            <p className={css.marketing__txt}>marketing</p>
+                            <h6 className={css.marketing__title}>Louis Vuitton</h6>
+                        </div>
+                    </div>
+                    <div className={css.card4}>
+                        <div className={css.text}>
+                            <p className={css.marketing__txt}>marketing</p>
+                            <h6 className={css.marketing__title}>Gillette</h6>
+                        </div>
+                    </div>
+                    <div className={css.card5}>
+                        <div className={css.text}>
+                            <p className={css.marketing__txt}>marketing</p>
+                            <h6 className={css.marketing__title}>General Electric</h6>
                         </div>
                     </div>
                 </div>

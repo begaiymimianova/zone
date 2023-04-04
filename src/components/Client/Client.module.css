@@ -4,3 +4,13 @@
     align-items: center;
     gap: 64px;
 }
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 375px;
+        margin: 0;
+        overflow: scroll;
+        gap: 24px;
+        display: flex;
+    }
+}

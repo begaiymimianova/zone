@@ -21,6 +21,15 @@
     margin-bottom: 16px;
 }
 
+.top__title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;        
+    color: #212B36;
+}
+
 .bottom {
     margin-top: 120px;
     width: 100%;
@@ -129,7 +138,7 @@
 
 .more {
     border: none;
-    width: 109px;
+    width: 118px;
     height: 30px;
     font-family: 'Poppins';
     font-style: normal;
@@ -267,8 +276,104 @@
     color: #FA541C;   
     border: none;
     background: none; 
+    width: 119px;
 }
 
 .icon {
     margin-left: 8px;
+}
+
+.card1 {
+    background-image: url(../../accsets/image/adaptation1.png);
+    width: 335px;
+    height: 335px;
+    border-radius: 16px;
+}
+
+.card2 {
+    background-image: url(../../accsets/image/adaptation2.png);
+    width: 335px;
+    height: 335px;
+    border-radius: 16px;
+}
+
+.card3 {
+    background-image: url(../../accsets/image/adaptation3.png);
+    width: 335px;
+    height: 335px;
+    border-radius: 16px;
+}
+
+.card4 {
+    background-image: url(../../accsets/image/adaptation4.png);
+    width: 335px;
+    height: 335px;
+    border-radius: 16px;
+}
+
+.card5 {
+    background-image: url(../../accsets/image/adaptation5.png);
+    width: 335px;
+    height: 335px;
+    border-radius: 16px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 139px 0 140px 0;
+}
+
+.minibottom {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 335px;
+    height: 2170px;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 64px 16px;
+        gap: 64px;
+        
+        width: 375px;
+        height: 2552px;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom {
+        display: none;
+    }
+
+    .minibottom {
+        display: contents;
+    }
+
+    .center__top {
+        width: 335px;
+        height: 335px;
+        display: block;
+    }
+
+    .center__bottom {
+        width: 335px;
+        height: 335px;
+        display: block;
+    }
+
+    .view {
+        margin: 0;
+    }
 }
