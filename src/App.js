@@ -25,9 +25,9 @@ function App() {
       {/* <HomePage /> */}
       {/* <TeamSlider /> */}
       {/* <LatestPosts /> */}
-      {/* <MarketingBlog /> */}
+      <MarketingBlog />
       {/* <ImgDetail /> */}
-      <Courses />
+      {/* <Courses /> */}
       {/* <MarketingDetail /> */}
     </div>
   );
