@@ -11,6 +11,9 @@ import LatestPosts from "./components/LatestPost/LatestPost";
 import MainSlider from "./components/MainSlider/MainSlider";
 import MarketingMain from "./components/MarketingMain/MarketMain";
 import MarketingBlog from "./Pages/MarketingBlog/MarketingBlog";
+import ImgDetail from "./components/ImgDetali/ImgDetali";
+import Courses from "./components/Courses/Courses";
+import MarketingDetail from "./Pages/MarketingDetail/MarketingDetail";
 function App() {
   return (
     <div className="App">
@@ -23,6 +26,9 @@ function App() {
       {/* <TeamSlider /> */}
       {/* <LatestPosts /> */}
       {/* <MarketingBlog /> */}
+      {/* <ImgDetail /> */}
+      <Courses />
+      {/* <MarketingDetail /> */}
     </div>
   );
 }
